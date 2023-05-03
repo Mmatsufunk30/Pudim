@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <style>
+            form{ 
+                background-color:coral;
+                text-align: center;
+                align-items:center;
+                margin-left: 30%;
+                margin-right: 30%;
+                border: 2px solid ;
+                border-radius: 5px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               
+
+            }
+            h1{ 
+                color: rgb(56, 59, 59);
+                text-align: center;
+                outline-color:rgb(69, 76, 79);
+                outline-style: ridge;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-left: 30%;
+                margin-right: 30%;
+                border: 2px solid burlywood ;
+                border-radius: 5px;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSIR1qf366uYuZzY0YLSN-rgnJ-KwT6q_1w&usqp=CAU);
+               
+            }
+            h2{ 
+                color:chocolate;
+                text-align: center;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            body{ 
+                background-image: url(data:image/jpeg;base64,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);
+                background-size: 20%;
+                
+            }
+           
+
+            
+            
+         
+                
+
+            
+        </style>
+    </head>
+    <body> 
+        <h1> Pudim "AIII QUE DELÍCIA CARA"</h1>
+    <div class="pudim"><br><br> 
+        <br> 
+        <form> 
+            <h2> Faça aqui o pedido do seu pudim delícia </h2>
+                <label for="Nome">Digite o nome do cliente (seu nome obvio):</label><br><br>
+                <input type="text" id="Nome" name="Nome">
+                    <br>
+                <label for="pudim">Escolha o tipo de pudim :</label><br><br>
+                <select name="selecao"> 
+                    <option value="Pudim de leite e/ou leite condensado">Pudim de leite e/ou leite condensado</option>
+                    <option value=" Pudim de leite condensado com gotas de baunilha"> Pudim de leite condensado com gotas de baunilha</option>
+                    <option value=" Pudim de coco com baunilha"> Pudim de coco com baunilha</option>
+                    <option value=" Pudim de chocolate"> Pudim de chocolate</option>
+                    <option value="  Pudim de cocada"> Pudim de cocada </option>
+                    <option value="Pudim de leite Ninho"> Pudim de leite Ninho </option>
+                    <option value="Pudim de banana">Pudim de banana </option>
+                    <option value=" Pudim de nozes">  Pudim de nozes </option>
+
+                </select>
+                    <br><br>
+                    <label for="calda">Escolha o tipo de calda:</label><br><br>
+                    <select name="selecao"> 
+                        <option value=" leite condensado">leite condensado</option>
+                        <option value="chocolate">chocolate</option>
+                        <option value=" leite Ninho">leite Ninho</option>
+                        <option value="morango">morango</option>
+                    </select>
+                    <br><Br>
+        </form>
+    </div><br><br>
+    
+    <div>
+        <form> 
+            <label for="quantos">Escolha quantos pudim tu quer </label>
+            <br>
+            <input type="number" name="quantos" min="1" max="15">
+
+        </form>
+    </div>
+    <br> <br> 
+    <form> 
+        <label for="entrega">Qual a maneira de entrega:</label><br><br>
+        <input type="radio" id="entrega" name="entrega"> Entrega (taxa de 5,99)
+        <input type="radio" id="entrega" name="entrega"> Retirada
+    </form>
+    </body>
+</html>
